@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  background-color: rgb(68, 68, 68);
+  height: auto;
+  width: auto;
+  margin-top: 0px;
+  flex-direction: row;
+}
+.leftsquare-container {
+  width: 100px;
+  position: absolute;
+  height: 800px;
+  background: rgb(190, 59, 59);
+  left: 0;
+}
+.rightsquare-container {
+  width: 100px;
+  position: absolute;
+  height: 800px;
+  background: rgb(190, 59, 59);
+  right: 0;
+}
+.topsquare-container {
+  width: 870px;
+  height: 100px;
+  background: gray;
+  position: absolute;
+  margin-top: -20px;
+  margin-left: -20px;
+}
+.botsquare-container {
+  width: 825px;
+  height: 100px;
+  background: rgb(36, 36, 36);
+  position: absolute;
+  bottom: 0;
+  margin-bottom: -18px;
+}

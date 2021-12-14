@@ -1,0 +1,62 @@
+.border {
+  border: rgb(106, 155, 245);
+  border-width: 2px;
+  height: 200px;
+  width: 965px;
+  border-style: solid;
+  background-color: rgb(106, 155, 245);
+}
+.topBorder {
+  border: rgb(187, 187, 187);
+  border-width: 2px;
+  height: 100px;
+  width: 965px;
+  border-style: solid;
+  background-color: rgb(187, 187, 187);
+  border-width: 2px;
+  margin-top: -10px;
+  margin-left: -10px;
+  margin-right: 0px;
+}
+.border1 {
+  border: rgb(106, 245, 238);
+  border-width: 2px;
+  height: 200px;
+  width: 965px;
+  border-style: solid;
+  background-color: rgb(106, 245, 238);
+}
+.border2 {
+  border: rgb(106, 245, 129);
+  border-width: 2px;
+  height: 200px;
+  width: 965px;
+  border-style: solid;
+  background-color: rgb(106, 245, 129);
+}
+.border3 {
+  border: rgb(245, 236, 106);
+  border-width: 2px;
+  height: 200px;
+  width: 965px;
+  border-style: solid;
+  background-color: rgb(245, 236, 106);
+}
+.container {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  height: auto;
+  width: fill;
+  margin-top: 50px;
+  margin-left: -10px;
+  margin-right: 0px;
+  flex-direction: column;
+}
+.purpleSquare {
+  border: solid 21px rgb(106, 155, 245);
+  background-color: rgb(106, 155, 245);
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  margin-top: 5px;
+}

@@ -1,0 +1,75 @@
+.border {
+  border: black;
+  border-width: 2px;
+  height: 200px;
+  width: 965px;
+  border-style: dashed;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+}
+.purpleSquare {
+  border: solid 21px rgb(138, 16, 168);
+  background-color: rgb(138, 16, 168);
+  width: 0px;
+  height: 50px;
+  margin-left: 10px;
+  margin-top: 40px;
+}
+.greenSquare {
+  border: solid 21px rgb(18, 122, 36);
+  background-color: rgb(18, 122, 36);
+  width: 180px;
+  height: 80px;
+  margin-left: 80px;
+  margin-top: -140px;
+}
+.blueCircle {
+  border: solid 21px rgb(25, 208, 221);
+  background-color: rgb(25, 208, 221);
+  width: 80px;
+  height: 80px;
+  margin-left: 330px;
+  margin-top: -120px;
+  border-radius: 100%;
+}
+.container {
+  display: flex;
+  background-color: rgb(68, 68, 68);
+  height: auto;
+  width: auto;
+  margin-top: 2500px;
+  flex-direction: row;
+}
+.dashedBorder {
+  border: black;
+  border-width: 2px;
+  height: 200px;
+  width: 965px;
+  border-style: dashed;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+}
+.yellowSquare {
+  border: solid 21px rgb(254, 255, 177);
+  background-color: rgb(254, 255, 177);
+  width: 600px;
+  height: 80px;
+  margin-left: 80px;
+  margin-top: 40px;
+  box-shadow: rgba(0, 0, 0, 1) 10px 10px 5px;
+}
+.grayBorder {
+  border: rgb(255, 255, 255);
+  border-width: 2px;
+  width: 300px;
+  height: 200px;
+  border-style: solid;
+  background-color: rgb(255, 255, 255);
+  margin-left: 330px;
+  margin-top: 210px;
+  box-shadow: rgb(167, 167, 167) 2px 2px 2px 2px;
+}
+.center {
+  text-align: center;
+  color: rgb(89, 57, 175);
+}
